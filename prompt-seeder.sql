@@ -1,0 +1,67 @@
+USE journly_db;
+
+DROP TABLE IF EXISTS prompts;
+
+CREATE TABLE IF NOT EXISTS prompts (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    prompt VARCHAR(255),
+    PRIMARY KEY(id)
+);
+
+TRUNCATE prompt;
+
+INSERT INTO prompts (prompt)
+    VALUES ('Today I am grateful for...'),
+       ('The best part of teaching today was...'),
+       ('A strength of mine I am grateful for is...'),
+       ('Something money can''t buy that I am grateful for is...'),
+       ('A memory I am grateful for today is...'),
+       ('A person who inspires me is...'),
+       ('One place I am grateful for is...'),
+       ('One small delight in the day that I look forward to is...'),
+       ('One part of teaching that is better than I thought it would be is...'),
+       ('One thing that made me laugh today was...'),
+       ('My favorite part about teaching is...'),
+       ('Something unique about today was...'),
+       ('A challenge I am grateful for is...'),
+       ('Three things I am grateful for today are...'),
+       ('One small teaching victory I had today was...'),
+       ('One book about teaching that I am grateful to have read is...'),
+       ('Three things I did for myself today were...'),
+       ('Something that made me smile today was...'),
+       ('One thing I did to make someone smile today was...'),
+       ('Something I learned today was...'),
+       ('People I''m grateful for today are...'),
+       ('Something in nature I am grateful for is...'),
+       ('Something relaxing I did today was...'),
+       ('One delicious food I ate today was...'),
+       ('One way I can incorporate gratitude into my teaching is...'),
+       ('One lesson I am grateful to have learned as a teacher is...'),
+       ('Something I created today was...'),
+       ('Something fun I did today was...'),
+       ('One food I am grateful for is...'),
+       ('One ''win'' I had while teaching today was...'),
+       ('Something that makes me feel strong is...'),
+       ('Three things I love about teaching are...'),
+       ('One teaching strategy I want to try is...'),
+       ('Something wonderful I smelled today was...'),
+       ('One moment that made me feel happy today was...'),
+       ('One new teaching strategy I tried today was...'),
+       ('One moment I enjoyed while teaching today was...'),
+       ('One hobby I am grateful for is...'),
+       ('Something funny that happened today was...'),
+       ('One joyous moment I had today was...'),
+       ('One friend I am grateful for is...'),
+       ('Three things I did to practice self-care today were...'),
+       ('Something I''m proud of today is...'),
+       ('One thing that made me smile while teaching today was..'),
+       ('One season of the year I am grateful for is...'),
+       ('One lesson I am looking forward to teaching my students is...'),
+       ('One special project or assignment that has really engaged my students this month is...'),
+       ('Today I connected with my students by...'),
+       ('The most beautiful thing I''ve seen today is...'),
+       ('Something I did just for fun today was..'),
+       ('Three things I love about me are...'),
+       ('Something new I tried today was...'),
+       ('One way I incorporated gratitude into my teaching today was...'),
+       ('One positive habit I incorporated into my day today was...');
